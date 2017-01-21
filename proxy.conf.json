@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "http://localhost:4300",
+    "target": "https://sindelka.herokuapp.com",
     "secure": false
   }
 }
