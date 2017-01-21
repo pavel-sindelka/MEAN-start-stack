@@ -1,0 +1,20 @@
+#logo {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-image: url(assets/astronaut.gif);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 20px 0 #9E9E9E;
+  position: relative;
+  left: 50%;
+  margin-left: -75px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+#astronautsList {
+  box-shadow: 0 0 20px 0 #9E9E9E;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "EEK",
+  "description": "Elektronická evidence kosmonautů.",
+  "repository": "https://github.com/pavel-sindelka/astronauts",
+  "keywords": [
+    "angular2",
+    "angular-cli",
+    "node",
+    "express",
+    "mongoDB"
+  ]
+}

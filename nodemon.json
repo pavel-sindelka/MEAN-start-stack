@@ -1,0 +1,18 @@
+{
+  "verbose": false,
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "execMap": {
+    "js": "node"
+  },
+  "watch": [
+    "dist/server"
+  ],
+  "env": {
+    "NODE_ENV": "development",
+    "MONGODB_URI": "mongodb://heroku_m9q80lt5:m7nofl8od9ffnduej56hdvhr4r@ds117189.mlab.com:17189/heroku_m9q80lt5"
+  },
+  "ext": "js json"
+}

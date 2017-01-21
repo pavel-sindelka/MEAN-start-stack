@@ -1,0 +1,8 @@
+.main {
+  width: 60%;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  margin-left: -30%;
+  box-sizing: border-box;
+}
