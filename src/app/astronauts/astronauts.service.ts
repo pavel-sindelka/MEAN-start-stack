@@ -12,7 +12,7 @@ export interface IAstronaut {
   superPower: string;
 }
 
-const api = 'http://localhost:4300//api/astronauts/';
+const api = 'http://localhost:4300/api/astronauts/';
 
 @Injectable()
 export class AstronautsService {
