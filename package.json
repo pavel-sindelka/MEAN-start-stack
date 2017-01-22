@@ -15,6 +15,7 @@
     "_server:run": "tsc -p ./server && concurrently \"tsc -w -p ./server\" \"nodemon dist/server/bin/www.js\" ",
     "_server:build": "tsc -p ./server",
     "postinstall": "npm run build",
+    "git": "git push origin master",
     "heroku": "heroku git:remote -a sindelka & git push heroku master"
   },
   "author": "Pavel Šindelka",
