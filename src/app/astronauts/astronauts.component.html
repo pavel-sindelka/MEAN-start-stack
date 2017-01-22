@@ -5,7 +5,7 @@
 <div id="astronautsList">
   <p-dataTable [value]="astronauts" selectionMode="single" [(selection)]="selectedAstronaut"
                (onRowSelect)="onRowSelect($event)"
-               [paginator]="true" asd rows="10" [responsive]="true">
+               [paginator]="true" rows="10" [responsive]="true">
     <header>Elektronická evidence kosmonautů</header>
     <p-column field="firstName" header="Jméno" [sortable]="true" [filter]="true"
               filterPlaceholder="hledat..."></p-column>

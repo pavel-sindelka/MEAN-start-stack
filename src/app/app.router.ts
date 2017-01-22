@@ -6,4 +6,9 @@ const routes: Route[] = [
   {loadChildren: 'app/astronauts/astronauts.module#AstronautsModule', path: 'astronauts'}
 ];
 
-export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
+export const routing: ModuleWithProviders = RouterModule.forRoot(
+  routes,
+  {
+    useHash: true
+  }
+);
