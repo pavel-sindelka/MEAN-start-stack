@@ -1,4 +1,4 @@
-import {Router, Response, Request} from "express";
+import {Router, Response, Request} from 'express';
 import {db, ObjectID} from '../bin/www';
 
 const astronautsRouter: Router = Router();
@@ -16,14 +16,14 @@ astronautsRouter.post('/', (request: Request, response: Response) =>
   )
 );
 
-astronautsRouter.get("/:id", (request: Request, response: Response) =>
+astronautsRouter.get('/:id', (request: Request, response: Response) =>
   db.collection('astronauts').findOne(
     {_id: new ObjectID(request.params.id)},
     (err, doc) => response.status(200).json(doc)
   )
 );
 
-astronautsRouter.put("/:id", (request: Request, response: Response) => {
+astronautsRouter.put('/:id', (request: Request, response: Response) => {
   delete request.body._id;
 
   db.collection('astronauts').updateOne(
@@ -33,7 +33,7 @@ astronautsRouter.put("/:id", (request: Request, response: Response) => {
   );
 });
 
-astronautsRouter.delete("/:id", (request: Request, response: Response) =>
+astronautsRouter.delete('/:id', (request: Request, response: Response) =>
   db.collection('astronauts').deleteOne(
     {_id: new ObjectID(request.params.id)},
     () => response.status(204).end()

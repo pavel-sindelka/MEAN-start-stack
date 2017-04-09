@@ -2,7 +2,7 @@
   display: inline-block;
   width: 150px;
   height: 150px;
-  background-image: url(assets/astronaut.gif);
+  background-image: url(../../assets/astronaut.gif);
   background-position: center;
   background-size: cover;
   border-radius: 50%;

@@ -26,7 +26,7 @@ export class AstronautsComponent implements OnInit {
   }
 
   public options = {
-    position: ["top", "right"],
+    position: ['top', 'right'],
     timeOut: 5000,
   };
 
